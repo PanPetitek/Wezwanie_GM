@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_wezwania">
+
+    <fragment
+        android:id="@+id/navigation_wezwania"
+        android:name="com.example.wezwanie_gm.ui.wezwania.WezwaniaFragment"
+        android:label="@string/title_wezwania"
+        tools:layout="@layout/fragment_wezwania" />
+
+    <fragment
+        android:id="@+id/navigation_historia"
+        android:name="com.example.wezwanie_gm.ui.historia.HistoriaFragment"
+        android:label="@string/title_historia"
+        tools:layout="@layout/fragment_historia" />
+
+    <fragment
+        android:id="@+id/navigation_ustawienia"
+        android:name="com.example.wezwanie_gm.ui.ustawienia.UstawieniaFragment"
+        android:label="@string/title_ustawienia"
+        tools:layout="@layout/fragment_ustawienia" />
+</navigation>

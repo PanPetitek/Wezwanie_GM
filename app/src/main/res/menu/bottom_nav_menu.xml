@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_wezwania"
+        android:icon="@drawable/ic_wezwania"
+        android:title="@string/title_wezwania" />
+    <item
+        android:id="@+id/navigation_historia"
+        android:icon="@drawable/ic_historia"
+        android:title="@string/title_historia" />
+    <item
+        android:id="@+id/navigation_ustawienia"
+        android:icon="@drawable/ic_ustawienia"
+        android:title="@string/title_ustawienia" />
+</menu>

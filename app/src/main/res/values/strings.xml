@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wezwanie_GM</string>
+    <string name="title_wezwania">Wezwania</string>
+    <string name="title_historia">Historia</string>
+    <string name="title_ustawienia">Ustawienia</string>
+	<string name="error_fetch_data">Błąd podczas pobierania danych</string>
+</resources>

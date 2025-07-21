@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="56dp">
+
+        <!-- Konfiguracja serwera -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP serwera"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etServerIp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="192.168.31.182"/>
+
+        <Button
+            android:id="@+id/btnSaveIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Zapisz IP"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <!-- Dane użytkownika -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twoje imię"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etOperatorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imię"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Rola"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgUserType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbUstawiacz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ustawiacz"/>
+
+            <RadioButton
+                android:id="@+id/rbWozkowy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="Wózkowy"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSaveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Zapisz ustawienia"/>
+
+    </LinearLayout>
+</ScrollView>
